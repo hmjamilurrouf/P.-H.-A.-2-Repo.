@@ -548,16 +548,6 @@ iframe{
 .hamburger-img{
   display: block;
 }
-#hero-section{
-  /* border: 3px solid red;  */
-  /* background-image: url(../assets/hero-bg.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  width: 100%;
-  aspect-ratio: 440 / 466; */
-
-} 
 #hero-section .hero{
   max-width: 400px;
   width: 100%;
@@ -566,14 +556,6 @@ iframe{
   align-items: center;
   justify-content: center;
   text-align: center;
-}
-
-#hero-section .hero .hero-images{
-  /* position: relative; */
-  /* border: 1px solid red; */
-  /* max-width: 200px; */
-
-  /* margin: 0px auto; */
 }
 #hero-section .hero .hero-images .hero-new{
   position: relative;
@@ -696,8 +678,7 @@ hr{
 }  
 #choose-section{
   background-color: rgba(35, 14, 61, 1);
-  padding: 40px 40px 1px 40px;
-
+  padding: 40px 20px;
 }
 .choose h2{
   text-align: center;
@@ -718,7 +699,9 @@ hr{
 
 .choose .choose-container .audio{
   padding: 24px;
-  width: 400px;
+  max-width: 400px;
+  width: 100%;
+  margin: 0px auto;
   height: 287px;
   background-color: rgba(53, 17, 101, 0.4);
   border-radius: 24px;
@@ -741,7 +724,9 @@ hr{
 }
 .choose .choose-container .mobile{
   padding: 24px;
-  width: 400px;
+  max-width: 400px;
+  width: 100%;
+  margin: 0px auto;
   height: 215px;
   background-color: rgba(53, 17, 101, 0.4);
   border-radius: 24px;
@@ -763,8 +748,10 @@ hr{
 }
 .choose .choose-container .global{
   padding: 24px;
+  max-width: 400px;
+  width: 100%;
+  margin: 0px auto;
   height: 215px;
-  width: 400px;
   background-color: rgba(53, 17, 101, 0.4);
   border-radius: 24px;
 }
@@ -785,7 +772,9 @@ hr{
 }
 .choose .choose-container .exclusive{
   padding: 24px;
-  width: 400px;
+  max-width: 400px;
+  width: 100%;
+  margin: 0px auto;
   height: 311px;
   background-color: rgba(53, 17, 101, 0.4);
   border-radius: 24px;
@@ -807,11 +796,12 @@ hr{
 }
 .choose .choose-container .rich{
   padding: 24px;
-  width: 400px;
+  max-width: 400px;
+  width: 100%;
+  margin: 0px auto;
   height: 215px;
   background-color: rgba(53, 17, 101, 0.4);
   border-radius: 24px;
-  margin-bottom: 40px;
 }
 .choose .choose-container .rich img{
   margin-bottom: 16px;
@@ -826,8 +816,7 @@ hr{
   color: white;
   font-size: 1rem;
   line-height: 24px;
-  opacity: 60%;  
-  opacity: 60%;  
+  opacity: 60%;    
 }
 #twice-section{
   background-color: #1A0B2E;
