@@ -556,7 +556,7 @@ iframe{
   background-position: center;
   width: 100%;
   aspect-ratio: 440 / 466; */
-  width: 100%;
+
 } 
 #hero-section .hero{
   max-width: 400px;
@@ -572,7 +572,7 @@ iframe{
   /* position: relative; */
   /* border: 1px solid red; */
   /* max-width: 200px; */
-  width: 100%;
+
   /* margin: 0px auto; */
 }
 #hero-section .hero .hero-images .hero-new{
@@ -628,9 +628,7 @@ iframe{
   border-radius: 10000px;
   border: none;
 }
-#about-section{
-  width: 100%;
-}
+
 #about-section .about{
   padding: 80px 20px;
 }
@@ -699,7 +697,6 @@ hr{
 #choose-section{
   background-color: rgba(35, 14, 61, 1);
   padding: 40px 40px 1px 40px;
-  width: 100%;
 }
 .choose h2{
   text-align: center;
@@ -830,7 +827,6 @@ hr{
 #twice-section{
   background-color: #1A0B2E;
   padding: 40px 20px;
-  width: 100%;
 }
 .featured-container h2{
   text-align: center;
@@ -934,7 +930,6 @@ iframe{
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  width: 100%;
 }
 .footer-text{
   max-width: 400px;
