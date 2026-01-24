@@ -697,6 +697,7 @@ hr{
 #choose-section{
   background-color: rgba(35, 14, 61, 1);
   padding: 40px 40px 1px 40px;
+
 }
 .choose h2{
   text-align: center;
@@ -710,6 +711,8 @@ hr{
   grid-template-columns: repeat(1, 1fr);
   grid-template-rows: repeat(1 ,16px);
   gap: 16px;
+  max-width: 400px;
+  margin: 0px auto 40px auto;
 }
 
 .choose .choose-container .audio{
@@ -837,7 +840,6 @@ hr{
 .featured-container{
   max-width: 400px;
   margin: 0px auto 60px auto;
-
 }
 .featured-container .featured-vid{
   display: flex;
@@ -848,7 +850,9 @@ hr{
 }
 iframe{
   border-radius: 30px 30px 0px 0px;
-
+  max-width: 400px;
+  width: 100%;
+  margin: 0px auto;
 }
 .featured-vid .vid{
   background-color: rgba(37, 13, 68, 1);
