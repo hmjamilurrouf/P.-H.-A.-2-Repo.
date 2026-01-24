@@ -527,7 +527,9 @@ iframe{
 }
 #nav-bar .nav-bar{
   padding: 16px 9px;
-  width: 440px;
+  max-width: 400px;
+  margin: 0px auto;
+  width: 100%;
   height: 60px;
 }
 .logo{
@@ -550,9 +552,8 @@ iframe{
 }
 #hero-section .hero{
   max-width: 400px;
-  width: 100%;
-  /* border: 3px solid red; */
   margin: 0px auto;
+  width: 100%;
   align-items: center;
   justify-content: center;
   text-align: center;
@@ -563,7 +564,7 @@ iframe{
   width: 70px;
   height: 35px;
   top: 50px;
-  left: 230px;
+  left: 191px;
 
 }
 .hero-new img{
@@ -613,6 +614,9 @@ iframe{
 
 #about-section .about{
   padding: 80px 20px;
+  max-width: 400px;
+  margin: 0px auto;
+  width: 100%;
 }
 .about-text{
   max-width: 400px;
@@ -831,6 +835,7 @@ hr{
 .featured-container{
   max-width: 400px;
   margin: 0px auto 60px auto;
+  width: 100%;
 }
 .featured-container .featured-vid{
   display: flex;
@@ -874,6 +879,7 @@ iframe{
 .host-container{
   max-width: 400px;
   margin: 0px auto;
+  width: 100%;
 }
 .host-container h2{
   color: white;
@@ -925,10 +931,12 @@ iframe{
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  width: 100%;
 }
 .footer-text{
   max-width: 400px;
   margin: 0px auto;
+  width: 100%;
   text-align: center;
   padding: 40px 20px;
   /* border: 1px solid white; */
